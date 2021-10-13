@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+@import url("https://use.typekit.net/bdi6lqp.css");
+
+
+html {
+  background-color: #B37457; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  display: flex;
+  flex-direction: column;
+  height:100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #B37457;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.logo-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo{
+  width: 60%;
+  margin-top: 150px;
+
 }
 
 .App-link {
-  color: #61dafb;
+  color: #dbad8e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  font-family: muli, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+
+  /* font-family: muli, sans-serif;
+  font-weight: 700;
+  font-style: normal; */
+  color: black;
+}
+
+.banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+  width: 100%;
+}
+.text-content{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.corner{
+  width: 22%;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 70px;
+  margin-right: 100px;
 }
